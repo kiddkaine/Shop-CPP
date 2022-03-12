@@ -66,7 +66,7 @@ int main()
         {
             cout << endl;
             
-            cout << "Отказано в продаже" << endl;
+            cout << "Отказано в продаже!" << endl;
         }
     }
     else
