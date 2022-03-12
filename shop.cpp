@@ -31,7 +31,7 @@ void sumAmount (double productOne, double productTwo, double productThree)
 
 int main()
 {
-    setlocale(LC_ALL, "rus");
+    setlocale(LC_ALL, "");
     
     cout << "*** Магазин у Миши ***" << endl << endl;
     
@@ -64,6 +64,8 @@ int main()
         }
         else
         {
+            cout << endl;
+            
             cout << "Отказано в продаже" << endl;
         }
     }
